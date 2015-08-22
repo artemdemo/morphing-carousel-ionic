@@ -20,7 +20,7 @@ White
 
 ## Usage
 
-1. Add data to your controller:
+1) Add data to your controller:
 
 ```javascript
 $scope.items = [
@@ -43,7 +43,7 @@ $scope.items = [
 $scope.selectedItem = $scope.items[2];
 ```
 
-2. Add directive
+2) Add directive
 
 ```html
 <morph-carousel data-items="items" on-selected="selectedItem" show-value="number"></morph-carousel>
