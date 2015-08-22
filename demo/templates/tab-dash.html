@@ -1,0 +1,18 @@
+<ion-view view-title="Dashboard">
+  <ion-content class="padding">
+
+    <div class="list card">
+      <morph-carousel data-items="items" on-selected="selectedItem" show-value="number"></morph-carousel>
+    </div>
+
+    <div class="list card">
+      <div class="item item-divider">Selected number</div>
+      <div class="item item-body">
+        <div>
+          Number is equal to <b>{{ selectedItem.number }}</b>
+        </div>
+      </div>
+    </div>
+
+  </ion-content>
+</ion-view>

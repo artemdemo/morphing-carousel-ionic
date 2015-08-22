@@ -1,0 +1,27 @@
+/* Empty. Add your own CSS if you like */
+
+.card, .list-inset {
+  background-color: #101010;
+}
+
+.scroll-content {
+  background-color: #2B2B2B;
+}
+
+.item, .item-complex .item-content, .item-radio .item-content {
+  border-color: #4C4C4C;
+  background-color: #2B2B2B;
+  color: #D0D0D0;
+}
+
+.item h2, .item-content h2 {
+  color: #D0D0D0;
+}
+
+.item.item-divider {
+  background-color: #404040;
+}
+
+.item.item-body {
+  background-color: #313030;
+}
