@@ -5,7 +5,6 @@ angular.module('morphCarousel', [])
    * Morph carousel directive
    * @example
    * $scope.items = [1, 2, 3, 4, 5, 6]
-   * $scope.select = function() {}
    *
    * <morph-carousel
    *      data-items="items"
