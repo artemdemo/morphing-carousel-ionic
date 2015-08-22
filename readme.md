@@ -2,7 +2,7 @@
 
 Morph carousel is an ionic plugin that allows you to add carousel to your application.
 
-Plugin have two pre-installed themes
+Plugin has two pre-installed themes
 
 Black
 
