@@ -1,6 +1,6 @@
 # Morph Carousel - Ionic Plugin
 
-Morph carousel is an ionic plugin that allows you to add carousel to your application. It designed to show first of all numbers.
+Morph carousel is an ionic plugin that allows you to add carousel to your application.
 
 Plugin have two pre-installed themes
 
@@ -20,7 +20,7 @@ White
 
 ## Usage
 
-1) Add data to your controller:
+1) Add data to your controller
 
 ```javascript
 $scope.items = [
