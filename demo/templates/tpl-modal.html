@@ -1,0 +1,29 @@
+<ion-modal-view>
+    <ion-header-bar>
+        <h1 class="title">Modal test</h1>
+    </ion-header-bar>
+    <ion-content>
+
+        <div class="list card">
+            <morph-carousel
+                    data-items="items"
+                    on-selected="selectedItem"
+                    identifier="modal-carousel"
+                    show-value="letter"></morph-carousel>
+        </div>
+
+        <div class="list card">
+            <div class="item item-divider">Selected letter</div>
+            <div class="item item-body">
+                <div>
+                    The letter is <b>{{ selectedItem.letter }}</b>
+                </div>
+            </div>
+        </div>
+
+        <div class="list card">
+            <button class="button button-block button-dark" ng-click="closeModal()">Close Modal</button>
+        </div>
+
+    </ion-content>
+</ion-modal-view>
