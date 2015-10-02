@@ -56,7 +56,7 @@ $scope.selectedItem = $scope.items[2];
 
 ### Usage in modal
 
-In case you're using carousel in modal you will need to update it after opening modal. Use 'identifier' in order to access relevant carousel.
+In case you're using carousel in modal you will need to update it after opening modal. Use 'identifier' attribute in order to access relevant carousel.
 
 You can update it by using helper factory $morphCarousel. Just inject it into controller and use update() method.
 
